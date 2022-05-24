@@ -1,7 +1,5 @@
 .section1 {
     background-color: rgb(7, 114, 200);
-    /* -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%); */
 }
 
 .bars {
@@ -24,12 +22,14 @@
 
 .logo {
     margin-left: 15%;
+    color: white;
 }
 
 .paras {
     display: flex;
     margin-left: 15%;
     margin-top: 5%;
+    color: white;
 }
 
 .img {
@@ -54,9 +54,7 @@
     /* width: 100px; */
     height: 30px;
 }
-/* .butons{
-    margin-bottom: -5%; 
-} */
+
 
 .services {
     display: flex;
@@ -88,7 +86,12 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgb(237, 245, 250);
-
+}
+.services p{
+   color: rgb(133, 127, 127);
+}
+.services h3{
+color: rgb(4, 4, 71) ;
 }
 
 .sev1 h5 {
@@ -164,6 +167,12 @@
     display: flex;
     margin-left: 10%;
 }
+.questions h1{
+    color: rgb(4, 4, 71);
+}
+.questions p{
+    color: rgb(125, 125, 128);  
+}
 
 .questions h5 {
     color: blue;
@@ -179,9 +188,21 @@
     margin-left: 40%;
     margin-top: 5%;
 }
-
+.abt h1{
+    color:rgb(4, 4, 71) ;
+}
+.commit h6{
+    color: rgb(125, 125, 128);
+}
+.commit p{
+    color: rgb(125, 125, 128);
+}
+.about h1{
+    color:rgb(4, 4, 71)  ;
+}
 .abt h6 {
     margin-left: 10%;
+    color:rgb(125, 125, 128) ;
 }
 
 .abt img {
@@ -229,16 +250,31 @@
     margin-top: 5%;
 
 }
+.amnts h1{
+    color: rgb(4, 4, 71) ;
+}
 
 .amounts1 {
     display: flex;
     margin-left: 8%;
+}
+.amounts1 h2{
+    color: rgb(4, 4, 71) ;
+}
+.amounts1 p{
+    color: rgb(102, 100, 100);
 }
 
 .amounts2 {
     display: flex;
     margin-left: 30%;
     margin-top: -5%;
+}
+.amounts2 p{
+    color: rgb(102, 100, 100);
+}
+.amounts2 h2{
+    color: rgb(4, 4, 71) ;
 }
 
 .amnts {
@@ -317,6 +353,9 @@ footer img {
 .updates {
     margin-left: 30%;
 }
+.updates h1{
+    color: white;
+}
 
 #btnupdate {
     margin-left: 40%;
@@ -325,16 +364,17 @@ footer img {
     height: 30px;
     width: 100px;
     border: none;
+    color: white;
 }
 
 .ft2 {
     margin-left: 20%;
-    color: rgb(206, 40, 40);
+    color: rgb(253, 249, 249);
 }
 
 .ft1 {
     margin-left: 30%;
-    color: rgb(167, 48, 48);
+    color: rgb(245, 239, 239);
 }
 
 .updates input {
@@ -356,7 +396,7 @@ footer img {
     clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 .updated{
-    background-color: blue;  
+ background-color: blue;
 }
 b{
     color: rgb(92, 232, 241);
